@@ -25,7 +25,7 @@ export default function Menu(props) {
           </li>
           <li>            
             <a href="https://wa.me/5492233000747/?text=Me%20interesaría%20un%20presupuesto.%20Gracias." target="_blank">
-              Pedí Presupuesto
+            Cotiza tu web
             </a>
           </li>
         </ul>
