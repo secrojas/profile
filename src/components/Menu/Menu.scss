@@ -1,0 +1,26 @@
+.menu {
+    position: relative;
+    z-index: 10;
+    font-family: Barlow;    
+  
+    ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      margin: 0;
+  
+      li {
+        padding: 30px 20px;
+        font-weight: bold;
+  
+        a {
+          color: #fff;
+  
+          &:hover {
+            color: #CB2228;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
