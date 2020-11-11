@@ -24,7 +24,7 @@ export const frontendSkills = [
   export const backendSkills = [
     { type: "PHP", level: 90 },
     { type: "Laravel", level: 80 },
-    { type: "Node JS", level: 15 },,
+    { type: "Node JS", level: 15 },
     { type: "Express JS", level: 15 },
     { type: "Python", level: 0 },
   ]
