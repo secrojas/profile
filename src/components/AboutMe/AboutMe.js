@@ -4,21 +4,35 @@ import { Container, Row, Col, Button } from "react-bootstrap"
 import CV from "../../images/cv.pdf"
 import "./AboutMe.scss"
 
+import { Image} from "react-bootstrap";
+import logoImage from "../../images/texto-perfil.png"
+
 export default function AboutMe() {
   return (
     <Container className="about-me">
-      <p>
-        Soy programador web freelance. Estoy especializandome principalmente en Front End con tecnologías 
-        como React JS y también trabajo con el framework Laravel para proyectos mas completos del perfil Full Stack.
-        Actualmente sigo capacitandome en ambas tecnologías y sumando proyectos personales para mostrar los contenidos
-        que puedo generar.      
+      <p style={{textAlign:'center'}}>
+        <Image src={logoImage}/>
       </p>
       <p>
-       Otras tecnologías que manejo y aplico a mis proyectos son Vue JS, Bootstrap, SAAS, Materialize, MySQL, Firebase, PHP, API´s, Git.
+        Programador web freelance. Especializado en Front End con tecnologías React JS y framework Laravel 
+        para proyectos más completos del perfil Full Stack.     
       </p>
       <p>
-       También soy el programador web de CMS Group. Desarrollo todas las web de sus eventos, como asi la maquetación de todas las campañas de mailing que realizan.
-       Llevo a cabo proyectos en paralelo como Credihub, Insurhub y Fintehub, entre otros.
+        Otras tecnologías que manejo son Vue JS, Bootstrap, SAAS, Materialize, MySQL, Firebase, PHP, API´s, 
+        Git.
+      </p>
+      <p>        
+        Actualmente me desempeño como programador web en CMS Group. Empresa que organiza congresos, 
+        tales como servicios financieros, fintech, pagos, seguros, salud, en ciudades como Barcelona, 
+        Madrid, Lisboa, Silicon Valley, São Paulo, Quito, Toronto, Londres, Buenos Aires, Lima, 
+        Montevideo y Santiago de Chile.
+      </p>
+      <p>        
+        Desarrollo web de los eventos y maquetación de campañas de mailing que realizan. 
+        En paralelo participo en proyectos como Credihub, Insurhub y Fintehub, entre otros.
+      </p>
+      <p>        
+        Siempre en constante capacitación de las tecnologías, abierto a nuevos proyectos.
       </p>
       <hr />
 

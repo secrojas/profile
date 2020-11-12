@@ -38,7 +38,7 @@ export const frontendSkills = [
   
   export const soSkills = [  
     { type: "Git", level: 50 },
-    { type: "Met. Agiles", level: 65 }, 
+    { type: "Met.Agiles", level: 65 }, 
     { type: "MySQL", level: 70 }, 
     { type: "Inglés", level: 80 },  
     { type: "Windows", level: 95 },       

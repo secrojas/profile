@@ -17,7 +17,7 @@ export default [
   {
     title: "Credihub",
     description:
-      "Plaforma de videos de la industria del crédito. Proyecto para CMS Group. Desarrollo realizado con Laravel.",
+      "Plataforma de videos de la industria del crédito. Proyecto para CMS Group. Desarrollo realizado con Laravel.",
     url: "https://web.credihub.net/",
     image: credihub,
   },

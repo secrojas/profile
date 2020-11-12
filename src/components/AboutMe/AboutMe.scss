@@ -1,3 +1,8 @@
+@font-face{
+  font-family: "mia";
+  src: url("../../fonts/NB-Grotesk-Pro-55M-Normal.ttf");
+}
+
 .about-me {
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
@@ -5,16 +10,17 @@
     padding: 40px 50px;
     text-align: center;
     margin-bottom: 50px;
-    font-family:Barlow;
-  
+    font-family:"mia";
+    font-size: 16px;
+    margin-top: 350px;
     p {
       text-align: justify;
     }
   
     button {
       text-transform: uppercase;
-      background-color: #CB2228;
-      border-color: #CB2228;
+      background-color: #E8461B;
+      border-color: #E8461B;
       margin-bottom: 10px;
     }
   }

@@ -1,12 +1,17 @@
+@font-face{
+  font-family: "mia";
+  src: url("../../fonts/NB-Grotesk-Pro-55M-Normal.ttf");
+}
+
 .profile {
     position: relative;
     top: -84px;
     width: 100%;
     z-index: 0;
-    font-family: Barlow;
+    font-family: "mia";
   
     .wallpaper {
-      background-image: url("../../images/code.jpg");
+      background-image: url("../../images/code.png");
       background-position: top;
       background-size: cover;
       width: 100%;
@@ -20,7 +25,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      opacity: 0.7;
+      opacity: 0.1;
     }
   
     .box {
@@ -37,7 +42,7 @@
   
         &__data {
           > span {
-            background-color: #0098d3;
+            background-color: #E8461B;
             font-weight: bold;
             color: #fff;
             padding: 5px 10px;
@@ -56,12 +61,12 @@
   
               p {
                 &:first-of-type {
-                  width: 25%;
+                  width: 34%;
                   font-weight: bold;
                   text-transform: uppercase;
                 }
                 &:last-of-type {
-                  width: 75%;
+                  width: 66%;
                   color: #a2a2a2;
                 }
               }

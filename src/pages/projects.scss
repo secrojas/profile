@@ -1,5 +1,10 @@
+@font-face{
+  font-family: "mia";
+  src: url("../fonts/NB-Grotesk-Pro-55M-Normal.ttf");
+}
+
 .projects {
-    font-family:Barlow;
+    font-family:"mia";
     h1 {
       margin: 50px 0 30px 0;
     }
@@ -18,8 +23,8 @@
         button {
           width: 100%;
           text-transform: uppercase;
-          background-color: #CB2228;
-          border-color:#CB2228 ;
+          background-color: #E8461B;
+          border-color:#E8461B ;
         }
       }
     }

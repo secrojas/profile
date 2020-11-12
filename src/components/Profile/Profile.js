@@ -29,13 +29,13 @@ export default function Profile() {
       <div className="wallpaper" />
       <div className="dark" />
       <Container className="box">
-        <Row className="info">
+        {/* <Row className="info">
           <Col xs={12} md={4}>
             <Image src={profileImage} fluid />
           </Col>
           <Col xs={12} md={8} className="info__data">
-            {/* <span>¡HOLA!</span> */}
-            <p>Sebastian Rojas</p>
+            
+            <p>SEBASTIAN ROJAS</p>
             <p>Front End Developer | Full Stack Developer</p>
             <hr />
             <div className="more-info">
@@ -48,7 +48,7 @@ export default function Profile() {
             </div>
           </Col>
         </Row>
-        <Social />
+        <Social /> */}
       </Container>
     </div>
   )

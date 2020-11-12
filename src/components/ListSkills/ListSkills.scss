@@ -1,9 +1,14 @@
+@font-face{
+  font-family: "mia";
+  src: url("../../fonts/NB-Grotesk-Pro-55M-Normal.ttf");
+}
+
 .list-skills {
     .skillbar {
       width: 48%;
       display: inline-block;
       margin-right: 20px;
-      font-family:Barlow;
+      font-family:"mia";
   
       &:nth-child(2n) {
         margin-left: 20px;
