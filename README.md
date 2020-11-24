@@ -1,3 +1,11 @@
+# Web personal - React | Gatsby
+
+## Descripción 
+
+Web personal armada con React y Gatby, para mostrar mi perfil y portfolio general.
+
+[Ir a mi web](https://srojasweb.dev) 
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
